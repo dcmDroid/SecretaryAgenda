@@ -1,0 +1,949 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>14, 90</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>46, 15</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>33</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Cvičení</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="crudSSave.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 278</value>
+  </data>
+  <data name="crudSSave.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>213, 23</value>
+  </data>
+  <data name="crudSSave.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>31</value>
+  </data>
+  <data name="crudSSave.Text" xml:space="preserve">
+    <value>Uložit záznam</value>
+  </data>
+  <data name="&gt;&gt;crudSSave.Name" xml:space="preserve">
+    <value>crudSSave</value>
+  </data>
+  <data name="&gt;&gt;crudSSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSSave.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="crudSWeeksCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 90</value>
+  </data>
+  <data name="crudSWeeksCount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>90, 23</value>
+  </data>
+  <data name="crudSWeeksCount.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;crudSWeeksCount.Name" xml:space="preserve">
+    <value>crudSWeeksCount</value>
+  </data>
+  <data name="&gt;&gt;crudSWeeksCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSWeeksCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSWeeksCount.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="crudSSemester.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>221, 119</value>
+  </data>
+  <data name="crudSSemester.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>32, 23</value>
+  </data>
+  <data name="crudSSemester.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;crudSSemester.Name" xml:space="preserve">
+    <value>crudSSemester</value>
+  </data>
+  <data name="&gt;&gt;crudSSemester.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSSemester.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSSemester.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="crudSStudyDegree.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>221, 148</value>
+  </data>
+  <data name="crudSStudyDegree.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>32, 23</value>
+  </data>
+  <data name="crudSStudyDegree.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegree.Name" xml:space="preserve">
+    <value>crudSStudyDegree</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegree.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="crudSHoursLecture.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>174, 28</value>
+  </data>
+  <data name="crudSHoursLecture.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>45, 23</value>
+  </data>
+  <data name="crudSHoursLecture.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursLecture.Name" xml:space="preserve">
+    <value>crudSHoursLecture</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursLecture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursLecture.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursLecture.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="crudSHoursExcercise.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>174, 87</value>
+  </data>
+  <data name="crudSHoursExcercise.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>45, 23</value>
+  </data>
+  <data name="crudSHoursExcercise.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursExcercise.Name" xml:space="preserve">
+    <value>crudSHoursExcercise</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursExcercise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursExcercise.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursExcercise.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="crudSID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>505, 6</value>
+  </data>
+  <data name="crudSID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>113, 23</value>
+  </data>
+  <data name="crudSID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;crudSID.Name" xml:space="preserve">
+    <value>crudSID</value>
+  </data>
+  <data name="&gt;&gt;crudSID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSID.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="crudSSubjectCode.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 35</value>
+  </data>
+  <data name="crudSSubjectCode.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>405, 23</value>
+  </data>
+  <data name="crudSSubjectCode.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;crudSSubjectCode.Name" xml:space="preserve">
+    <value>crudSSubjectCode</value>
+  </data>
+  <data name="&gt;&gt;crudSSubjectCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSSubjectCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSSubjectCode.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>411, 9</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>60, 15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>22</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>ID_hidden</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>14, 31</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>61, 15</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>21</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Přednáška</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 151</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>79, 15</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>20</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Stupeň studia</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 122</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>49, 15</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>19</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Semestr</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 93</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>74, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>18</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Počet týdnů</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 38</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>88, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>17</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Kód předmětu</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="crudSDelete.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>355, 278</value>
+  </data>
+  <data name="crudSDelete.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>213, 23</value>
+  </data>
+  <data name="crudSDelete.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>37</value>
+  </data>
+  <data name="crudSDelete.Text" xml:space="preserve">
+    <value>Vymazat záznam</value>
+  </data>
+  <data name="&gt;&gt;crudSDelete.Name" xml:space="preserve">
+    <value>crudSDelete</value>
+  </data>
+  <data name="&gt;&gt;crudSDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSDelete.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="crudSHoursSeminar.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>174, 58</value>
+  </data>
+  <data name="crudSHoursSeminar.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>45, 23</value>
+  </data>
+  <data name="crudSHoursSeminar.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursSeminar.Name" xml:space="preserve">
+    <value>crudSHoursSeminar</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursSeminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursSeminar.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;crudSHoursSeminar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="crudSFinalType.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>221, 180</value>
+  </data>
+  <data name="crudSFinalType.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>32, 23</value>
+  </data>
+  <data name="crudSFinalType.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalType.Name" xml:space="preserve">
+    <value>crudSFinalType</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalType.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>14, 61</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>50, 15</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>40</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Seminář</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 183</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>62, 15</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>41</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Zakončení</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Name" xml:space="preserve">
+    <value>numericSHE</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Name" xml:space="preserve">
+    <value>numericSHS</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Name" xml:space="preserve">
+    <value>numericSHL</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>303, 90</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>277, 135</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>42</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Počet hodin předmětu</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="numericSHE.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>79, 86</value>
+  </data>
+  <data name="numericSHE.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="numericSHE.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Name" xml:space="preserve">
+    <value>numericSHE</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericSHS.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>79, 57</value>
+  </data>
+  <data name="numericSHS.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="numericSHS.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Name" xml:space="preserve">
+    <value>numericSHS</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numericSHL.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>79, 28</value>
+  </data>
+  <data name="numericSHL.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 23</value>
+  </data>
+  <data name="numericSHL.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Name" xml:space="preserve">
+    <value>numericSHL</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;numericSHL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="crudSLanguage.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>221, 210</value>
+  </data>
+  <data name="crudSLanguage.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>32, 23</value>
+  </data>
+  <data name="crudSLanguage.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguage.Name" xml:space="preserve">
+    <value>crudSLanguage</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguage.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>69, 213</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 15</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>44</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="semesterCombo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 119</value>
+  </data>
+  <data name="semesterCombo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 23</value>
+  </data>
+  <data name="semesterCombo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;semesterCombo.Name" xml:space="preserve">
+    <value>semesterCombo</value>
+  </data>
+  <data name="&gt;&gt;semesterCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;semesterCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;semesterCombo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="degreeCombo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 148</value>
+  </data>
+  <data name="degreeCombo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 23</value>
+  </data>
+  <data name="degreeCombo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;degreeCombo.Name" xml:space="preserve">
+    <value>degreeCombo</value>
+  </data>
+  <data name="&gt;&gt;degreeCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;degreeCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;degreeCombo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="finalCombo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 180</value>
+  </data>
+  <data name="finalCombo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 23</value>
+  </data>
+  <data name="finalCombo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;finalCombo.Name" xml:space="preserve">
+    <value>finalCombo</value>
+  </data>
+  <data name="&gt;&gt;finalCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;finalCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;finalCombo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="langCombo.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>163, 210</value>
+  </data>
+  <data name="langCombo.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>52, 23</value>
+  </data>
+  <data name="langCombo.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;langCombo.Name" xml:space="preserve">
+    <value>langCombo</value>
+  </data>
+  <data name="&gt;&gt;langCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;langCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;langCombo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="crudSSemesterID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>260, 118</value>
+  </data>
+  <data name="crudSSemesterID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 23</value>
+  </data>
+  <data name="crudSSemesterID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;crudSSemesterID.Name" xml:space="preserve">
+    <value>crudSSemesterID</value>
+  </data>
+  <data name="&gt;&gt;crudSSemesterID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSSemesterID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSSemesterID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="crudSStudyDegreeID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>260, 148</value>
+  </data>
+  <data name="crudSStudyDegreeID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 23</value>
+  </data>
+  <data name="crudSStudyDegreeID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegreeID.Name" xml:space="preserve">
+    <value>crudSStudyDegreeID</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegreeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegreeID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSStudyDegreeID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="crudSFinalTypeID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>260, 180</value>
+  </data>
+  <data name="crudSFinalTypeID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 23</value>
+  </data>
+  <data name="crudSFinalTypeID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalTypeID.Name" xml:space="preserve">
+    <value>crudSFinalTypeID</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalTypeID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalTypeID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSFinalTypeID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="crudSLanguageID.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>260, 210</value>
+  </data>
+  <data name="crudSLanguageID.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>37, 23</value>
+  </data>
+  <data name="crudSLanguageID.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguageID.Name" xml:space="preserve">
+    <value>crudSLanguageID</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguageID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguageID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crudSLanguageID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="subHelpGrid.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>317, 231</value>
+  </data>
+  <data name="subHelpGrid.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>278, 35</value>
+  </data>
+  <data name="subHelpGrid.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;subHelpGrid.Name" xml:space="preserve">
+    <value>subHelpGrid</value>
+  </data>
+  <data name="&gt;&gt;subHelpGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subHelpGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;subHelpGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>645, 352</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Úprava záznamu předmětu</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CRUDSubject</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
